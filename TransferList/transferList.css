@@ -1,0 +1,59 @@
+.transfetList_item_container {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px 1px rgb(97, 97, 97);
+  color: black;
+  padding: 1em;
+  font-size: large;
+  width: 10em;
+  min-height: 20em;
+}
+
+.trandferList_container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(206, 206, 206);
+  padding: 2em;
+  gap: 1em;
+}
+
+.transferlist_item {
+  text-align: center;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 1em 0;
+}
+
+.transferlist_item:hover {
+  background-color: darkgrey;
+  cursor: pointer;
+}
+
+.checked {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.transferList_controls {
+  display: flex;
+  flex-direction: column;
+  min-height: 20em;
+  justify-content: center;
+  align-items: center;
+  width: 5em;
+  color: black;
+}
+
+.trandferList_controls,
+button {
+  margin: 1em 0;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.trandferList_controls,
+button:hover {
+  background-color: rgb(151, 151, 151);
+}
